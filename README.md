@@ -75,16 +75,37 @@ sempre nasce de algo que me atrapalhou duas vezes seguidas.
 
 <br>
 
-## Coisas que eu aprendi quebrando
+## Frases que eu levo comigo
 
-**Se rodar duas vezes quebra, ainda não está pronto.** Vale para qualquer coisa
-que vá rodar sem alguém olhando.
+> A perfeição é atingida não quando não há mais nada a acrescentar,
+> mas quando não há mais nada a retirar.
 
-**O porquê é o que se perde primeiro.** Daqui a três meses o código continua
-lá, a decisão que levou até ele não.
+**Antoine de Saint-Exupéry**, *Terre des Hommes*, 1939
 
-**"Funciona aqui" e "está testado" são coisas diferentes.** Descobri isso do
-jeito difícil, mais de uma vez.
+<br>
 
-**Um número errado na tela custa mais caro que uma tela feia.** Por isso valor
-e link nunca saem de um modelo de IA nos meus projetos. Saem do banco.
+> Testar um programa pode mostrar a presença de falhas,
+> nunca a sua ausência.
+
+**Edsger W. Dijkstra**, *Notes on Structured Programming*, 1970
+
+<br>
+
+> A melhor maneira de prever o futuro é inventá-lo.
+
+**Alan Kay**, Xerox PARC, 1971
+
+<br>
+
+> Todo mundo sabe que depurar é duas vezes mais difícil do que escrever o
+> programa. Então, se você escreve da forma mais engenhosa que consegue,
+> como pretende depurá-lo depois?
+
+**Brian Kernighan** e **P. J. Plauger**, *The Elements of Programming Style*, 1974
+
+<br>
+
+> Cuidado com os bugs no código acima. Eu apenas provei que está correto,
+> não cheguei a executá-lo.
+
+**Donald Knuth**, em carta a Peter van Emde Boas, 1977
