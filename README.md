@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="SrTecc — automação, integrações e dados" width="100%">
+<img src="./assets/banner.svg" alt="SrTecc, automação, integrações e dados" width="100%">
 
 <br>
 
 **Construo sistemas que continuam trabalhando depois que eu fecho o editor.**
 
-Automação de processos, integrações entre plataformas e pipelines de dados —
-do coletor até a entrega, com o mínimo de intervenção manual no meio.
+Automação de processos, integrações entre plataformas e pipelines de dados.
+Do coletor até a entrega, com o mínimo de intervenção manual no meio.
 
 <br>
 
@@ -46,6 +46,27 @@ do coletor até a entrega, com o mínimo de intervenção manual no meio.
 
 ---
 
+## Em destaque
+
+<div align="center">
+<a href="https://github.com/SrTecc/qr-forge">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=SrTecc&repo=qr-forge&theme=tokyonight&bg_color=0b1220&title_color=38bdf8&text_color=8fb3d9&icon_color=22d3ee&hide_border=true" alt="qr-forge">
+</a>
+</div>
+
+**[qr-forge](https://github.com/SrTecc/qr-forge)** gera QR Code para PIX,
+WhatsApp, WiFi e contato. O trabalho não está em desenhar o código, e sim em
+montar o payload: o BR Code do PIX usa estrutura EMV com CRC16, senha de WiFi
+com ponto e vírgula corta o payload no meio, e número de WhatsApp com parêntese
+gera link quebrado.
+
+A biblioteca não tem dependência de runtime, e a geração acontece inteiramente
+no navegador, então chave PIX e senha de rede não saem da máquina de quem usa.
+
+`TypeScript` `Next.js` `51 testes`
+
+---
+
 ## No que eu trabalho
 
 <table>
@@ -57,7 +78,7 @@ do coletor até a entrega, com o mínimo de intervenção manual no meio.
 Fluxos que rodam sozinhos em cima de **n8n**, Node e Python: coleta de dados,
 regras de filtragem, geração de conteúdo com IA e distribuição multicanal.
 
-Cada etapa é idempotente e testada isoladamente — rodar duas vezes não duplica
+Cada etapa é idempotente e testada isoladamente. Rodar duas vezes não duplica
 nada, e falha de um item não derruba o lote.
 
 </td>
@@ -65,10 +86,10 @@ nada, e falha de um item não derruba o lote.
 
 ### 🔌 Integrações de plataforma
 
-Consumo e orquestração de APIs de terceiros: mensageria, marketplaces,
-CRMs e serviços de IA.
+Consumo e orquestração de APIs de terceiros: mensageria, marketplaces, CRMs e
+serviços de IA.
 
-Onde não existe API oficial, entra automação de navegador com **Playwright** —
+Onde não existe API oficial, entra automação de navegador com **Playwright**,
 com a ressalva honesta de onde isso é frágil.
 
 </td>
@@ -78,75 +99,21 @@ com a ressalva honesta de onde isso é frágil.
 
 ### 📊 Dados e curadoria
 
-Modelagem em **PostgreSQL** e **MongoDB**, migrations versionadas, histórico
+Modelagem em **PostgreSQL** e **MongoDB**, migrations versionadas, e histórico
 para detectar o que os dados brutos escondem.
 
-Regra que eu sigo: o número que vai para o usuário final nunca é escrito por
-IA — vem do banco.
+Regra que eu sigo: o número que chega ao usuário final nunca é escrito por IA.
+Vem do banco.
 
 </td>
 <td width="50%" valign="top">
 
 ### 🤖 Aplicações com IA
 
-Uso de LLMs onde eles agregam de verdade — escrever texto, classificar,
-extrair — sempre com validação da resposta e caminho de fallback.
+Uso de LLM onde ele agrega de verdade, para escrever texto, classificar e
+extrair, sempre com validação da resposta e caminho de fallback.
 
 Modelo que falha não pode virar erro na cara do usuário.
-
-</td>
-</tr>
-</table>
-
----
-
-## Projetos
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 🛒 Motor de afiliados
-
-Pipeline completo: descobre ofertas via API, pontua por regras de curadoria,
-gera a mensagem com IA e publica em canais de mensageria.
-
-Detecta desconto inflado comparando com o histórico real de preço, em vez de
-confiar no "de/por" anunciado.
-
-`Node.js` `Python` `PostgreSQL` `Docker`
-
-</td>
-<td width="50%" valign="top">
-
-#### 💬 Automação de atendimento
-
-Integrações de WhatsApp para prospecção e atendimento, ligando mensageria,
-CRM e IA num fluxo único com etapa de revisão humana.
-
-`Node.js` `n8n` `Docker`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🔎 Coletores e enriquecimento
-
-Scripts de coleta e enriquecimento de base, com controle de rate limit,
-cache e deduplicação.
-
-`Python` `Playwright`
-
-</td>
-<td width="50%" valign="top">
-
-#### 📋 Sistemas de gestão
-
-Aplicações web de ponta a ponta — autenticação, permissões, relatórios e
-painéis operacionais.
-
-`Next.js` `React` `Supabase`
 
 </td>
 </tr>
