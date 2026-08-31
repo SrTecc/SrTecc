@@ -17,7 +17,7 @@ privado. Aqui em cima ficam os que fazem sentido para outra pessoa usar.
 ## Projetos públicos
 
 <a href="https://github.com/SrTecc/qr-forge">
-  <img src="./assets/qr-forge.svg" alt="qr-forge" width="460" align="right">
+  <img src="./assets/qr-forge.svg" alt="qr-forge" width="440" align="right">
 </a>
 
 ### [qr-forge](https://github.com/SrTecc/qr-forge)
@@ -25,13 +25,33 @@ privado. Aqui em cima ficam os que fazem sentido para outra pessoa usar.
 Começou com uma pergunta: por que gerar um QR Code de PIX é mais chato do que
 deveria ser?
 
-A resposta é que desenhar o código já é problema resolvido há anos. A parte
-difícil é montar o texto que vai dentro dele. O BR Code do PIX usa estrutura
-EMV com CRC16, senha de WiFi com ponto e vírgula corta o payload no meio, e
-número de WhatsApp com parêntese gera link quebrado.
+Desenhar o código já é problema resolvido há anos. A parte difícil é montar o
+texto que vai dentro dele. O BR Code do PIX usa estrutura EMV com CRC16, senha
+de WiFi com ponto e vírgula corta o payload no meio, e número de WhatsApp com
+parêntese gera link quebrado.
 
-Virou uma biblioteca sem nenhuma dependência, mais um site que roda inteiro no
-navegador.
+Hoje são três formas de usar a mesma coisa: biblioteca sem dependência, site
+que roda inteiro no navegador, e um comando que desenha o QR no terminal.
+
+<br clear="right">
+
+<br>
+
+<a href="https://github.com/SrTecc/MysticTable-releases">
+  <img src="./assets/mystic-table.svg" alt="MysticTable" width="440" align="right">
+</a>
+
+### [MysticTable](https://github.com/SrTecc/MysticTable-releases)
+
+Plugin de Minecraft que troca a tela de encantamento padrão por uma mesa
+própria, com skill de Enchanting que sobe por jogador. Quanto maior o nível,
+mais alto o encantamento que sai e maior a chance de vir um segundo.
+
+A mesa é uma cabeça craftável com textura própria, sem precisar de resource
+pack, e os nomes dos encantamentos aparecem no idioma do launcher de cada
+jogador.
+
+O repositório distribui apenas os `.jar` das releases. O código é fechado.
 
 <br clear="right">
 
@@ -63,7 +83,7 @@ sempre nasce de algo que me atrapalhou duas vezes seguidas.
 <!-- Cada grupo fica numa unica linha de propriedade: quebra de linha no fonte
      faz o GitHub empilhar um badge por linha. -->
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="176" viewBox="0 0 440 176" role="img" aria-label="MysticTable, mesa de encantamentos custom para Spigot 1.8.9">
+  <defs>
+    <linearGradient id="bordaMt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.30"/>
+    </linearGradient>
+    <linearGradient id="acentoMt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <filter id="brilhoMt" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="439" height="175" rx="12" fill="#0b1220" stroke="url(#bordaMt)"/>
+  <rect x="20" y="22" width="3" height="24" rx="1.5" fill="url(#acentoMt)"/>
+
+  <text x="34" y="41" font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif"
+        font-size="19" font-weight="600" fill="#e6edf5">MysticTable</text>
+
+  <text font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="13.5" fill="#a9b4d0">
+    <tspan x="34" y="72">Mesa de encantamentos custom para Spigot,</tspan>
+    <tspan x="34" y="93">com skill de Enchanting por jogador e GUI</tspan>
+    <tspan x="34" y="114">no lugar da tela vanilla.</tspan>
+  </text>
+
+  <g font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#8b93ad">
+    <circle cx="39" cy="145" r="5" fill="#f89820"/>
+    <text x="50" y="149">Java</text>
+
+    <circle cx="112" cy="145" r="5" fill="#a78bfa"/>
+    <text x="123" y="149">Spigot 1.8.9</text>
+
+    <circle cx="228" cy="145" r="5" fill="#94a3b8"/>
+    <text x="239" y="149">só releases</text>
+  </g>
+
+  <!-- mesa de encantamento com o livro flutuando -->
+  <g transform="translate(366, 100)">
+    <path d="M4 22 L24 12 L44 22 L24 32 Z" fill="#1e2a44" stroke="#a78bfa" stroke-width="1.6"/>
+    <path d="M4 22 L4 30 L24 40 L24 32 Z" fill="#161f34" stroke="#8b7ae0" stroke-width="1.4"/>
+    <path d="M44 22 L44 30 L24 40 L24 32 Z" fill="#111a2c" stroke="#8b7ae0" stroke-width="1.4"/>
+    <path d="M16 6 L24 2 L32 6 L24 10 Z" fill="#38bdf8" opacity="0.9" filter="url(#brilhoMt)"/>
+    <g fill="#c4b5fd">
+      <circle cx="12" cy="8" r="1.4" opacity="0.85"/>
+      <circle cx="38" cy="6" r="1.2" opacity="0.7"/>
+      <circle cx="30" cy="14" r="1" opacity="0.6"/>
+    </g>
+  </g>
+</svg>
